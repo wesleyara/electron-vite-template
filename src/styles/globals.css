@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* UI & surface colors */
+
+  --bg-primary: #ffffff;
+  --bg-secondary: #8c8c8c;
+
+  --text-primary: #000000;
+  --text-secondary: #3f3e3e;
+
+  /* Brand colors */
+  --red-violet: #aa18a3;
+
+  /* Primary colors */
+  --blue-85E: #2e4e85;
+  --blue-1F: #00b9ff;
+  --blue-2A: #00b1fa;
+}
+
+.appStackCard {
+  @apply flex h-[100px] w-[100px] items-center justify-center border-2;
+}
