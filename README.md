@@ -42,6 +42,7 @@ These are just some of the ways you can contribute to the project read the [CONT
 ## ✨ Contributors
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+Thanks for the contributors people in [electron-vite-react](https://github.com/electron-vite/electron-vite-react), this project is based in your template.
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
@@ -58,7 +59,7 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 electron-vite-template is a open source project licensed as [MIT](LICENSE).
 
 
-## 🚨 Be aware
+# 🚨 Be aware
 
 This template integrates Node.js API to the renderer process by default. If you want to follow **Electron Security Concerns** you might want to disable this feature. You will have to expose needed API by yourself.  
 
