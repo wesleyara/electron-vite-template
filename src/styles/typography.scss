@@ -1,0 +1,39 @@
+/* Defina o tamanho das fontes para h1 */
+h1 {
+  @apply text-5xl font-bold md:text-6xl;
+}
+
+/* Defina o tamanho das fontes para h2 */
+h2 {
+  @apply text-4xl font-bold md:text-5xl;
+}
+
+/* Defina o tamanho das fontes para h3 */
+h3 {
+  @apply text-3xl font-bold md:text-4xl;
+}
+
+/* Defina o tamanho das fontes para h4 */
+h4 {
+  @apply text-2xl font-bold md:text-3xl;
+}
+
+/* Defina o tamanho das fontes para h5 */
+h5 {
+  @apply text-xl font-bold md:text-2xl;
+}
+
+/* Defina o tamanho das fontes para h6 */
+h6 {
+  @apply text-lg font-bold md:text-xl;
+}
+
+/* Defina o tamanho das fontes para p */
+p {
+  @apply text-base md:text-lg;
+}
+
+/* Defina o tamanho das fontes para small */
+small {
+  @apply text-sm md:text-base;
+}
