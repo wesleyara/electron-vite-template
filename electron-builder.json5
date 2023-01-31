@@ -3,8 +3,8 @@
  */
 {
   appId: "electron-vite-template",
-  productName: "Academia Corpo em Forma",
-  copyright: "Copyright © 2022 ${author}",
+  productName: "Electron Vite Template",
+  copyright: "Copyright © 2023 ${author}",
   asar: true,
   directories: {
     output: "release/${version}",
