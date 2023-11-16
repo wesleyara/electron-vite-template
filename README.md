@@ -41,6 +41,12 @@ These are just some of the ways you can contribute to the project read the [CONT
 
 ## ✨ Contributors
 
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/pportella23"><img src="https://avatars.githubusercontent.com/u/49278720?v=4" width="100px;" alt=""/><br /><sub><b>Pedro Portella</b></sub></a><br /></td>
+  </tr>
+</table>
+
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 Thanks for the contributors people in [electron-vite-react](https://github.com/electron-vite/electron-vite-react), this project is based in your template.
 
