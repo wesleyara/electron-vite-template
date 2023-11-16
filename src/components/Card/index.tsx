@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const docs = [
   {
@@ -21,6 +22,7 @@ const docs = [
 
 export const Card = () => {
   const [count, setCount] = useState(0);
+  const navigate = useNavigate();
 
   return (
     <div className="flex h-[100vh] flex-col items-center justify-center gap-5">
@@ -43,12 +45,20 @@ export const Card = () => {
 
       <div className="flex flex-col items-center justify-center gap-5">
         <p>Hello to the Electron, Vite, React, and Node template!</p>
-        <button
-          className="rounded-md border-2 bg-slate-200 p-2 focus:outline-none"
-          onClick={() => setCount(prevState => prevState + 1)}
-        >
-          Count is: {count}
-        </button>
+        <div className="flex gap-5">
+          <button
+            className="rounded-md border-2 bg-slate-200 p-2 focus:outline-none"
+            onClick={() => setCount(prevState => prevState + 1)}
+          >
+            Count is: {count}
+          </button>
+          <button
+            className="rounded-md border-2 bg-slate-200 p-2 focus:outline-none"
+            onClick={() => navigate("/about")}
+          >
+            About Page
+          </button>
+        </div>
         <p>
           Edit <code className="text-blue-400">App.tsx</code> and save to test
           HMR updates.

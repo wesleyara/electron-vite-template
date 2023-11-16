@@ -1,9 +1,8 @@
 import { ToastContainer } from "react-toastify";
 
 import "react-toastify/dist/ReactToastify.css";
-import { NavigateProvider } from "./context/NavigateContext";
 import { Home } from "./pages";
-import { Routes } from "./routes";
+import Router from "./router";
 
 export const path = [
   { name: "Início", path: "/", element: <Home key={"inicio"} /> },
@@ -12,9 +11,7 @@ export const path = [
 export function App() {
   return (
     <>
-      <NavigateProvider>
-        <Routes />
-      </NavigateProvider>
+      <Router />
       <ToastContainer autoClose={5000} />
     </>
   );

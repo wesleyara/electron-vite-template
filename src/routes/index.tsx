@@ -1,19 +1,6 @@
-import { useNavigate } from "../hooks/useNavigate";
-import { LayoutProvider } from "../layout/LayoutProvider";
-import { Home } from "../pages";
+import { About, Home } from "../pages";
 
-export const path = [
+export const routes = [
   { name: "Início", path: "/", element: <Home key={"inicio"} /> },
+  { name: "About", path: "/about", element: <About key={"about"} /> },
 ];
-
-export function Routes() {
-  const { router } = useNavigate();
-
-  return (
-    <>
-      <LayoutProvider>
-        {path.filter(item => item.path === router).map(item => item.element)}
-      </LayoutProvider>
-    </>
-  );
-}
